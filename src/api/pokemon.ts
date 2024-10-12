@@ -19,3 +19,4 @@ export const fetchPokemonList = async (offset: number = 20, limit: number = 20):
   const data = await response.json();
   return data;
 };
+
